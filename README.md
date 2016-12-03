@@ -28,14 +28,14 @@ According to the several threads:
 
 ##Use
 ```
-docker run -v $ABSOLUTE_BASE_PATH:/src 64b380bf25bc compile $RELATIVE_RB_PATH
+docker run -v $ABSOLUTE_BASE_PATH:/src vpietri/docker-compass-foundation-5-5 compile $RELATIVE_RB_PATH
 ```
 - $ABSOLUTE_BASE_PATH: Define the local working directory
 - $RELATIVE_RB_PATH: Define the path to config.rb file (used with $ABSOLUTE_BASE_PATH when you have dependecies in scss files)
 
 ###Sample
 ```
-docker run -v /var/www/magento/skin/frontend:/src 64b380bf25bc compile ./default/default
+docker run -v /var/www/magento/skin/frontend:/src vpietri/docker-compass-foundation-5-5 compile ./default/default
 ```
 
 _Folder structure_:
