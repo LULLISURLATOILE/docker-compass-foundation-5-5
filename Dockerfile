@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM debian:7
 MAINTAINER Vincent Pietri
 
 RUN apt-get update && apt-get install -y \
